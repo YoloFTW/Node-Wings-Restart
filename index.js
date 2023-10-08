@@ -28,6 +28,15 @@ const job = schedule.scheduleJob(rule, function(){
         sendWebhook(`${process.env.TITLE} Failed To Run`, process.env.DISCORD_URL, true);
     });
 
+    wings.on('exit', (code) => {
+         //if the command runs correctly
+        if(code == 0){
+            sendWebhook(`${process.env.TITLE} Succesfully Ran`, process.env.DISCORD_URL, false);
+        }else{
+            sendWebhook(`${process.env.TITLE} Failed To Run`, process.env.DISCORD_URL, true);
+        }
+    });
+
     //close window
     wings.stdin.end();
 

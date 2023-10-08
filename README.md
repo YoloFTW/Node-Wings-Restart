@@ -31,7 +31,7 @@
 
 ## About <a name = "about"></a>
 
-Node-Wings-Restart is a Node.js module designed to automate the process of restarting the wings service for pterodacty by running the "service wings restart" command periodically. This module is particularly useful for managing game servers, web applications, or any service that requires periodic restarts to ensure optimal performance.
+Node-Wings-Restart is a Node.js app designed to automate the process of restarting the wings service for pterodactyl by running the "service wings restart" command periodically. This app is particularly useful for managing game servers, web applications, or any service that requires periodic restarts to ensure optimal performance.
 
 </br>
 

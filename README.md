@@ -82,6 +82,14 @@ This project is licensed under the MIT License. See the [LICENSE](/LICENSE) file
 
 Contributions are welcome! If you find a bug or have any suggestions, please open an issue or create a pull request.
 
+</br>
+
+## Sponsored by <a name="SponsoredBy"></a>
+
+This has been sponsored by [Cybrancee](https://cybrancee.com/andreisawesome)
+
+</br>
+
 ## Authors <a name = "authors"></a>
 
 - [@YoloFTW](https://github.com/YoloFTW)

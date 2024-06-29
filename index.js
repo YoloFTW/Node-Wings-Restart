@@ -1,8 +1,9 @@
 const schedule = require('node-schedule');
 const { spawn } = require("child_process");
 const { sendWebhook } = require("./utilities/webhook");
+const path = require('path');
 
-require('dotenv').config();
+require('dotenv').config({ path: path.join(__dirname, '.env') });
 
 //collect rule times for cron job
 let rule = `${process.env.RULE_SECOND} ${process.env.RULE_MINUTE} ${process.env.RULE_HOUR} ${process.env.RULE_DATE} ${process.env.RULE_MONTH} ${process.env.RULE_WEEK_DAY}`;
